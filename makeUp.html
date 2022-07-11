@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/makeUp.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+   <!--  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> -->
+    <title>Make Up</title>
+</head>
+<body>
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear "></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ef6666"></li>
+                    <li data-color="#66efaf"></li>
+                    <li data-color="#4f0ba8"></li>
+                    <li data-color="#efc466"></li>
+                    <li data-color="#c866ef"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">Yes</span>
+                    <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".our-skills">
+            <div class="tooltip">OUR SKILLS</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">GALLERY</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonial">
+            <div class="tooltip">Testimonial</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">Contact Us</div>
+        </div>
+    </div>
+    <div class="make-up">
+        <div class="contaner">
+            <div class="header">
+                <div class="logo">Spiceal <span>D</span>esign</div>
+                <div class="links-contaner">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".our-skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonial">Testimonial</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>
+                    </ul>
+                    <button class="toggle-contaner">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="text">
+                <h1>We Are <span>Creative</span> Agency</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, reprehenderit eligendi. Sed corporis, facilis similique ullam cum iure, enim labore totam odit inventore doloribus aliquid, repellat neque nostrum sunt maxime.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-us">
+        <div class="main-title">
+            <h2>About Us</h2>
+        </div>
+        <div class="contaner">
+            <div class="info-box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores reprehenderit tenetur corrupti quos id, iusto voluptates ex vel fuga molestiae quod voluptatibus obcaecati? Dicta, corrupti. Tempore est magnam facilis expedita!</p>
+            </div>
+            <div class="image-box">
+                <img src="img/—Pngtree—makeup cosmetic model_5630321.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="our-skills">
+        <div class="main-title">
+            <h2>Our Skills</h2>
+        </div>
+        <div class="contaner">
+            <div class="box-skill">
+                <h2>High quality</h2>
+                <div class="progress">
+                    <span style="width: 60%;" data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="box-skill">
+                <h2>Many brands</h2>
+                <div class="progress">
+                    <span style="width: 80%;" data-progress="80%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="main-title">
+            <h2>Gallery</h2>
+        </div>
+        <div class="contaner">
+            <div class="images-box">
+                <div class="image">
+                    <img src="img/set-make-up-brushes-lies-table_8353-8869.jpg" alt="image one">
+                </div>
+            </div>    
+            <div class="images-box">
+                <div class="image">
+                    <img src="img/different-lipstick-shades-arrangement.jpg" alt="image two">
+                </div>
+            </div>
+            <div class="images-box">
+                <div class="image">
+                    <img src="img/two-makeup-brushes-set-shadows-beige-background-popular-modern-cosmetics-flat-lay_94064-9799.jpg" alt="image three">
+                </div>
+            </div>
+            <div class="images-box">
+                <div class="image">
+                    <img src="img/high-angle-brushes-blush-palette.jpg" alt="image four">
+                </div>
+            </div>
+            <div class="images-box">
+                <div class="image">
+                    <img src="img/high-angle-eyeshadow-palette_23-2149234385.jpg" alt="image fife">
+                </div>
+            </div>
+            <div class="images-box">
+                <div class="image">
+                    <img src="img/top-view-lipsticks-arrangement_23-2148978199.jpg" alt="image six">
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+    <div class="timeline">
+        <div class="contaner">
+            <div class="timeline-content">
+                <div class="date"> 2018</div>                
+                    <div class="left">
+                        <div class="content">
+                            <h3>Teasting Heading</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolor recusandae laborum dolore unde suscipit, molestiae nam nesciunt quo nostrum corrupti placeat dignissimos doloremque maiores corporis provident deserunt tempore vero.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Teasting Heading</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolor recusandae laborum dolore unde suscipit, molestiae nam nesciunt quo nostrum corrupti placeat dignissimos doloremque maiores corporis provident deserunt tempore vero.</p>
+                        </div>
+                    </div>                
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="main-title">
+            <h2>Features</h2>
+        </div>
+        <div class="contaner">
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <div class="text-box">
+                    <h3>Development</h3>
+                    <p>we are proffional marketeers we will do any thing you imagen in no time </p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <div class="text-box">
+                    <h3>Development</h3>
+                    <p>we are proffional marketeers we will do any thing you imagen in no time </p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <div class="text-box">
+                    <h3>Development</h3>
+                    <p>we are proffional marketeers we will do any thing you imagen in no time </p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <div class="text-box">
+                    <h3>Development</h3>
+                    <p>we are proffional marketeers we will do any thing you imagen in no time </p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <div class="text-box">
+                    <h3>Development</h3>
+                    <p>we are proffional marketeers we will do any thing you imagen in no time </p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <div class="text-box">
+                    <h3>Development</h3>
+                    <p>we are proffional marketeers we will do any thing you imagen in no time </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="main-title">
+            <h2>Testimonial</h2>
+        </div>
+        <div class="contaner">
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero aspernatur eveniet perspiciatis ad quisquam quia molestias excepturi</p>
+                <div class="person-info">
+                    <img src="img/avatar-03.png" alt="">
+                    <div class="text-info">
+                        <h4>Osama Masri</h4>
+                        <p>full stack developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero aspernatur eveniet perspiciatis ad quisquam quia molestias excepturi</p>
+                <div class="person-info">
+                    <img src="img/avatar-04.png" alt="">
+                    <div class="text-info">
+                        <h4>Ahmad Alashe </h4>
+                        <p>front end developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vero aspernatur eveniet perspiciatis ad quisquam quia molestias excepturi</p>
+                <div class="person-info">
+                    <img src="img/avatar-06.png" alt="">
+                    <div class="text-info">
+                        <h4>Ali Alyousef</h4>
+                        <p>back end developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="main-title">
+            <h2>Contact-Us</h2>
+        </div>
+        <div class="contaner">
+            <form action="">
+                <div class="left">
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                    <input type="text" name="phone" placeholder="Enter Your Phone">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="right">
+                    <textarea name="Message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="contaner">
+            <div class="social-media">
+                <div class="logo">Spiceal <span>D</span>esign</div>
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eos molestias! Recusandae sunt ea molestiae dolorem expedita, ipsum, provident, laudantium similique nam ratione perspiciatis officia error placeat? Tenetur, culpa labore!</div>
+                <ul class="icons">
+                        <li><a href="" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Syria, Damascus, Inside The Sphinx, Room Number 220</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+20123456789</span>
+                        <span>+20198765432</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/makeUp.js"></script>
+</body>
+</html>
